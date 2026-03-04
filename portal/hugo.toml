@@ -1,0 +1,5 @@
+baseURL = 'http://localhost:1313/'
+languageCode = 'ja'
+title = 'Space Catalog Application Docs'
+contentDir = '../docs'
+theme = 'minimal-docs'

@@ -1,0 +1,8 @@
+<nav>
+  <h2><a href="{{ "/" | relURL }}">{{ .Site.Title }}</a></h2>
+  <ul>
+    {{ range .Site.Sections }}
+    <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+    {{ end }}
+  </ul>
+</nav>
